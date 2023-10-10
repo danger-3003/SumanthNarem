@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="src/hi.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <title>Sumanth Narem</title>
+</head>
+<body class="bg-[#0c0c0c] text-white font-thin" id="body" style="font-family: 'Poppins', sans-serif;">
+    <div>
+        <!-- home page -->
+        <section id="Home" class="pb-20">
+            <div>
+                <div class="bg-blue-500 rounded-full w-20 h-20 lg:w-36 lg:h-36 absolute -z-10 left-24 lg:left-40 top-0 sm:animating1"style="filter:blur(50px);"></div>
+                <div class="bg-green-500 rounded-full w-24 h-24 lg:w-40 lg:h-40 absolute -z-10 right-28 sm:right-[15%] top-52 sm:top-64 lg:top-48 animating2" style="filter: blur(50px);"></div>
+                <div class="bg-yellow-600 rounded-full w-20 h-20 lg:w-32 lg:h-32 absolute -z-10 left-40 lg:left-60 top-10 sm:animating3" style="filter: blur(50px);"></div>
+                <div class="hidden sm:block bg-cyan-500 rounded-full w-20 h-20 lg:w-24 lg:h-24 absolute -z-10 left-2/4 top-[29rem] animate-pulse" style="filter: blur(60px);"></div>
+            </div>
+            <!-- navbar -->
+            <div id="nav-bar-bg" class="w-screen h-12 p-auto fixed z-10 transition-all duration-100" style="background: rgba(255, 255, 255, 0.30);backdrop-filter: blur(10px);"></div>
+            <div id="nav-bar" class="fixed w-[95vw] flex items-center justify-between z-20">
+                <div id="profile" class="w-[10vw] hidden my-5 transition-all duration-100">
+                    <img src="src/profile.webp" alt="profile" class="rounded-full w-auto">
+                </div>
+                <div>
+                    <p class="font-black text-2xl py-2 ml-8 text-transparent bg-clip-text bg-gradient-to-r to-yellow-300 from-orange-400">Sumanth Narem</p>
+                </div>
+                <div class="flex flex-col text-center md:inline">
+                    <i id="bars" class="fa-solid fa-bars text-xl block z-20 md:hidden"></i>
+                    <div id="menu" class="flex items-center justify-center absolute left-0 -top-60 flex-col w-screen py-4 opacity-0 mr-5 md:opacity-100 md:py-0 md:relative md:top-0 md:flex-row md:w-max transition-all duration-300">
+                        <a href="#Home" class="px-3 py-2 mx-2 hover:underline text-slate-950 sm:text-white font-bold sm:font-medium transition-all duration-150 hover:text-yellow-400">Home</a>
+                        <a href="#About_me" class="px-3 py-2 mx-2 hover:underline text-slate-950 sm:text-white font-bold sm:font-medium transition-all duration-150 hover:text-yellow-400">About Me</a>
+                        <a href="#Portfolio" class="px-3 py-2 mx-2 hover:underline text-slate-950 sm:text-white font-bold sm:font-medium transition-all duration-150 hover:text-yellow-400">Portfolio</a>
+                        <a href="#Contact" class="px-3 py-2 mx-2 hover:underline text-slate-950 sm:text-white font-bold sm:font-medium transition-all duration-150 hover:text-yellow-400">Contact</a>
+                        <div class=" md:hidden">
+                            <a href="https://www.instagram.com/danger_3003/" target="_blank" id="instagram"><i class="fa-brands fa-instagram text-slate-950 font-bold mx-1 text-xl"></i></a>
+                            <a href="https://github.com/danger-3003" target="_blank" id="github"><i class="fa-brands fa-github text-slate-950 font-bold mx-1 text-xl"></i></a>
+                            <a href="https://www.linkedin.com/in/sumanth-narem-431a4524b" target="_blank" id="linkedin"><i class="fa-brands fa-linkedin text-slate-950 font-bold mx-1 text-xl"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- home page creation-->
+            <div class="flex items-center justify-around flex-col-reverse md:flex-row-reverse md:justify-center mx-10 md:mx-0 pt-20 md:pt-36">
+                <div class="sm:w-[90%] md:basis-[60%] md:ml-10 animate">
+                    <div class="flex items-center flex-col sm:mt-5 md:mt-0 md:block sm:ml-5 md:ml-0">
+                        <p class="uppercase text-[5vw] sm:text-2xl md:text-2xl lg:text-3xl xl:text-[2.5rem] font-bold">hi there !</p>
+                        <p class="uppercase text-[6.5vw] sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl mb-3 font-extrabold">I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-blue-400">sumanth narem</span></p>
+                        <p class="bg-gradient-to-r to-yellow-400 from-orange-500 text-black w-max text-[4vw] sm:text-sm lg:text-base py-1 px-2 mb-5 rounded font-bold">Python Developer| Front-end Web Developer</p>
+                        <p class="w-[95%] md:w-[80%] mb-5">Highly motivated and skilled web developer with proficiency in Python seeking a challenging position to utilize my expertise and contribute to the success of an innovative organization.</p>
+                        <div class="w-max">
+                            <a href="src/Sumanth Narem - resume.pdf" download class="px-5 py-1 relative rounded-full border-[2px] border-yellow-400 group overflow-hidden bg-transparent text-white font-semibold inline-block">
+                                <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-in-out transform translate-y-0 bg-yellow-400 group-hover:h-full opacity-90"></span>
+                                <span class="relative group-hover:text-black">Resume</span>
+                            </a>
+                            <a href="#Portfolio" class="px-5 py-1 relative rounded-full border-[2px] border-yellow-400 group overflow-hidden bg-transparent text-white font-semibold inline-block">
+                                <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-in-out transform translate-y-0 bg-yellow-400 group-hover:h-full opacity-90"></span>
+                                <span class="relative group-hover:text-black">Portfolio</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- profile image -->
+                <div class="w-[50vw] mb-10 sm:mb-0 sm:w-[45%] md:basis-[40%] relative">
+                    <img src="src/profile.webp" alt="profile" class="md:w-[80%] md:ml-16">
+                </div>
+            </div>
+        </section>
+        <!-- home page termination -->
+        <!-- about section begining -->
+        <section id="About_me" class="h-max pt-14">
+            <div class="flex flex-col items-center justify-center ">
+                <!-- about  me -->
+                <div id="about-me" class="text-center w-max animate">
+                    <p class="uppercase font-black text-4xl sm:text-5xl md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">About me</p>
+                </div>
+                <div class="animate px-10 lg:px-20">
+                    <div class="text-2xl md:text-3xl font-light mt-10">
+                        <p>I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-blue-400 font-black text-3xl md:text-4xl lg:text-5xl">Sumanth Narem,</span><span class="font-thin text-center"> Python Programmer / Front&nbsp;end Web Developer.</span></p>
+                    </div>
+                    <div class="my-5 text-base sm:text-lg">
+                        Highly motivated and skilled web developer with proficiency in Python seeking a challenging position to utilize my expertise and contribute to the success of an innovative organization. Committed to delivering high-quality code and ensuring seamless website functionality.<span class="hidden sm:block"> I thrive in collaborative environments and continuously seek opportunities to expand my knowledge and skills in web development.</span>
+                        <p></p>
+                    </div>
+                </div>
+                <!-- skills section beginning -->
+                <div class="relative w-full">
+                    <div class="bg-[#121212] w-2/4 h-[75rem] sm:h-[50rem] lg:h-[37rem] absolute left-0 -z-10"></div>
+                    <div class="flex justify-center flex-col pt-10 animate mb-10">
+                        <div id="can_do" class="flex justify-center flex-col items-center">
+                            <div class="flex items-center justify-center flex-col sm:flex-row flex-wrap">
+                                <div class="bg-[#1e1e1e] flex justify-center flex-col rounded-md m-3 p-4 lg:p-7 h-max w-64 md:w-72 hover:scale-110 transition-all duration-150" style="box-shadow: 0px 0px 10px brgba(0, 0, 0, 0.29)">
+                                    <i class="fa-solid fa-palette text-5xl pb-3 bg-clip-text text-transparent bg-gradient-to-bl from-yellow-500 to-green-500"></i>
+                                    <p class="flex items-center"><span class="font-extrabold text-lg py-3 md:text-xl">Drawing & Painting</span></p>
+                                    <p class="text-sm">Express creativity through drawing and painting; limitless forms of visual art.</p>
+                                    <a href="#Portfolio" class="uppercase text-xs font-sans font-extrabold mt-3 bg-clip-text text-transparent bg-gradient-to-tr from-green-400 to-blue-500">know more <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                                <div class="bg-gradient-to-tl from-cyan-500 to-green-500 flex justify-center flex-col rounded-md m-3 p-4 lg:p-7 h-max w-64 md:w-72 hover:scale-110 transition-all duration-150">
+                                    <img width="50" height="50" class="pb-3" src="https://img.icons8.com/ios-filled/100/FFFFFF/google-code.png" alt="google-code">
+                                    <p class="flex items-center"><span class="font-extrabold py-3 text-indigo-900 text-lg md:text-xl">Web Development</span></p>
+                                    <p class="text-sm text-[#020608] font-bold">Design and code interactively, visually appealing online experiences for users.</p>
+                                    <a href="#Portfolio" class="uppercase text-white text-xs font-bold mt-3">know more <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                                <div class="bg-[#1e1e1e] flex justify-center flex-col rounded-md m-3 p-4 lg:p-7 h-max w-64 md:w-72 hover:scale-110 transition-all duration-150" style="box-shadow: 0px 0px 10px brgba(0, 0, 0, 0.29)">
+                                    <i class="fa-brands fa-python text-5xl pb-3 bg-clip-text text-transparent bg-gradient-to-bl from-yellow-500 to-green-500"></i>
+                                    <p class="flex items-center"><span class="font-extrabold py-3 text-lg md:text-xl">Coding with Python</span></p>
+                                    <p class="text-sm">I have a strong passion for coding in Python and crafting intricate logic using it.</p>
+                                    <a href="#Portfolio" class="uppercase text-xs font-sans font-extrabold mt-3 bg-clip-text text-transparent bg-gradient-to-tr from-green-400 to-blue-500">know more <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- skills -->
+                    <div class="flex justify-center items-center flex-col sm:flex-row flex-wrap px-2 sm:px-5">
+                        <div class="sm:md-4 md:mr-16 animate">
+                            <div class="mb-4 flex flex-col items-center justify-center bg-gradient-to-tl from-cyan-500 to-green-500 text-transparent bg-clip-text ">
+                                <p class="font-black text-9xl">1+</p>
+                                <p class="font-medium text-2xl">Years</p>
+                                <p class="font-medium text-2xl">Experience</p>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2">
+                            <div class="animate bg-[#1e1e1e] width-350 sm:w-56 h-40 py-5 px-2 flex items-center flex-col rounded-md m-2 transition-all duration-200 hover:scale-110" style="box-shadow: 0px 0px 10px rgba(24, 24, 24, 0.3)">
+                                <p class="mb-3 text-center">Numpy & Pandas</p>
+                                <div class="flex items-center justify-center relative">
+                                    <div>
+                                        <img src="./src/75.svg" class="w-20">
+                                        <div class="bg-[#1e1e1e] rounded-full w-16 h-16 absolute top-2 left-2">
+                                            <p class="text-center pt-5">75%</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="animate bg-[#1e1e1e] width-350 sm:w-56 h-40 py-5 px-2 flex items-center flex-col rounded-md m-2 transition-all duration-200 hover:scale-110" style="box-shadow: 0px 0px 10px rgba(24, 24, 24, 0.3)">
+                                <p class="mb-3 text-center">Web Scrapping- Python</p>
+                                <div class="flex items-center justify-center">
+                                    <div class="relative">
+                                        <img src="./src/85.svg" class="w-20">
+                                        <div class="bg-[#1e1e1e] rounded-full w-16 h-16 absolute top-2 left-2">
+                                            <p class="text-center pt-5">85%</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="animate bg-[#1e1e1e] width-350 sm:w-56 h-40 py-5 px-2 flex items-center flex-col rounded-md m-2 transition-all duration-200 hover:scale-110" style="box-shadow: 0px 0px 10px rgba(24, 24, 24, 0.3)">
+                                <p class="mb-3 text-center">Tailwind CSS</p>
+                                <div class="flex items-center justify-center relative">
+                                    <div>
+                                        <img src="./src/80.svg" class="w-20">
+                                        <div class="bg-[#1e1e1e] rounded-full w-16 h-16 absolute top-2 left-2">
+                                            <p class="text-center pt-5">80%</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="animate bg-[#1e1e1e] width-350 sm:w-56 h-40 py-5 px-2 flex items-center flex-col rounded-md m-2 transition-all duration-200 hover:scale-110" style="box-shadow: 0px 0px 10px rgba(24, 24, 24, 0.3)">
+                                <p class="mb-3 text-center">Front-end Development</p>
+                                <div class="flex items-center justify-center">
+                                    <div class="relative">
+                                        <img src="./src/85.svg" class="w-20">
+                                        <div class="bg-[#1e1e1e] rounded-full w-16 h-16 absolute top-2 left-2">
+                                            <p class="text-center pt-5">85%</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio section begning -->
+        <section id="Portfolio" class="h-max pt-14">
+            <div class="flex items-center justify-center flex-col">
+                <div id="about-me" class="text-center w-max animate">
+                    <p class="uppercase font-black text-4xl sm:text-5xl md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">Portfolio</p>
+                </div>
+                <div class="relative">
+                    <div class="flex items-center justify-center mt-8 animate">
+                        <div class="mr-16 sm:mr-20 md:mr-32 hover:cursor-pointer text-sm sm:text-base" id="projects">PROJECTS
+                            <div id="bar1" class="w-full bg-white h-0.5 rounded-full block"></div>
+                        </div>
+                        <div class="hover:cursor-pointer text-sm sm:text-base" id="photography">PHOTOGRAPHY
+                            <div id="bar2" class="w-full bg-white h-0.5 rounded-full hidden"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div id="block1" class="w-full block relative">
+                            <div class="flex items-center justify-center flex-wrap">
+                                <div class="m-3 sm:m-5">
+                                    <div class="scale-90 md:scale-100 w-72 h-max px-3 py-6 bg-[#1e1e1e] rounded-md" style="box-shadow: 0px 0px 10px rgba(24, 24, 24, 0.3)">
+                                        <img src="./src/netflix.webp" class="rounded-lg" alt="" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.699);">
+                                    </div>
+                                    <div class="mt-5 ml-3">
+                                        <p class="font-bold text-slate-400">Netflix Clone</p>
+                                        <a href="https://my-ns-netflix-clone.netlify.app/public/" class="bg-gradient-to-tr from-cyan-400 to-green-400 text-transparent bg-clip-text" target="_blank">Know more <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="m-3 sm:m-5">
+                                    <div class="scale-90 md:scale-100 w-72 h-max px-3 py-6 bg-[#1e1e1e] rounded-md" style="box-shadow: 0px 0px 10px rgba(24, 24, 24, 0.3)">
+                                        <img src="./src/portfolio.webp" class="rounded-lg" alt="" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.699);">
+                                    </div>
+                                    <div class="mt-5 ml-3">
+                                        <p class="font-bold text-slate-400">Personal Portfolio 1</p>
+                                        <a href="https://intern-jul.vercel.app/project02/" class="bg-gradient-to-tr from-cyan-400 to-green-400 text-transparent bg-clip-text" target="_blank">Know more <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="m-3 sm:m-5">
+                                    <div class="scale-90 md:scale-100 w-72 h-max px-3 py-6 bg-[#1e1e1e] rounded-md" style="box-shadow: 0px 0px 10px rgba(24, 24, 24, 0.3)">
+                                        <img src="./src/emeralld-grill.webp" class="rounded-lg" alt="" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.699);">
+                                    </div>
+                                    <div class="mt-5 ml-3">
+                                        <p class="font-bold text-slate-400">Emeralld Grill - Restaurant</p>
+                                        <a href="https://scs-intern.vercel.app/project02/" class="bg-gradient-to-tr from-cyan-400 to-green-400 text-transparent bg-clip-text" target="_blank">Know more <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="m-3 sm:m-5">
+                                    <div class="scale-90 md:scale-100 w-72 h-max px-3 py-6 bg-[#1e1e1e] rounded-md" style="box-shadow: 0px 0px 10px rgba(24, 24, 24, 0.3)">
+                                        <img src="./src/home.jpg" class="rounded-lg" alt="" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.699);">
+                                    </div>
+                                    <div class="mt-5 ml-3">
+                                        <p class="font-bold text-slate-400">Admin Dashboard</p>
+                                        <a href="https://scs-intern.vercel.app/project01/" class="bg-gradient-to-tr from-cyan-400 to-green-400 text-transparent bg-clip-text" target="_blank">Know more <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="m-5 hidden md:block">
+                                    <div class="scale-90 md:scale-100 w-72 h-max px-3 py-6 bg-[#1e1e1e] rounded-md" style="box-shadow: 0px 0px 10px rgba(24, 24, 24, 0.3)">
+                                        <img src="./src/temp.jpeg" class="rounded-lg" alt="" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.699);">
+                                    </div>
+                                    <div class="mt-5 ml-3">
+                                        <p class="font-bold text-slate-400">Temperature Converter</p>
+                                        <a href="https://bharatintern.vercel.app/Temp_conv/" class="bg-gradient-to-tr from-cyan-400 to-green-400 text-transparent bg-clip-text" target="_blank">Know more <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="m-5 hidden md:block">
+                                    <div class="scale-90 md:scale-100 w-72 h-max px-3 py-6 bg-[#1e1e1e] rounded-md" style="box-shadow: 0px 0px 10px rgba(24, 24, 24, 0.3)">
+                                        <img src="./src/login-signup.jpg" class="rounded-lg" alt="" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.699);">
+                                    </div>
+                                    <div class="mt-5 ml-3">
+                                        <p class="font-bold text-slate-400">Login-Signup page</p>
+                                        <a href="https://my-ns-project.vercel.app/login_admin/" class="bg-gradient-to-tr from-cyan-400 to-green-400 text-transparent bg-clip-text" target="_blank">Know more <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="absolute right-[16vw] z-10 sm:right-16 md:right-32 lg:right-56 font-black uppercase bg-gradient-to-tl md:px-3 md:py-2 from-blue-400 to-green-500 rounded-sm hover:cursor-pointer text-[#1e1e1e] hover:scale-105 transition-all duration-150">
+                                    <a href="./projects/" target="_blank" class="text-xs md:text-sm lg:text-base px-3 py-1 md:px-5 md:py-3">view all <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        <div id="block2" class="w-full hidden">
+                            <div class="flex items-center justify-center flex-wrap">
+                                <div class="m-3 sm:m-5">
+                                    <div class="scale-90 md:scale-100 w-72 h-max rounded-md" style="box-shadow: 0px 0px 10px rgba(24, 24, 24, 0.3)">
+                                        <img src="./src/bmG_mYAAbLPyV_xKGZ5OhAknkC8Oz-A9m92XyknyRYw=_plaintext_638321956339111425.jpg" class="rounded-lg" alt="" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.699);">
+                                    </div>
+                                </div>
+                                <div class="m-5 hidden md:block">
+                                    <div class="scale-90 md:scale-100 w-72 h-max bg-[#1e1e1e] rounded-md" style="box-shadow: 0px 0px 10px rgba(24, 24, 24, 0.3)">
+                                        <img src="./src/KQnRGBfAW3UjlCEXa7JSZoA4uNF3n0bLxrLhrlIKUUo=_plaintext_638321956329424519.jpg" class="rounded-lg" alt="" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.699);">
+                                    </div>
+                                </div>
+                                <div class="m-3 sm:m-5">
+                                    <div class="scale-90 md:scale-100 w-72 h-max bg-[#1e1e1e] rounded-md" style="box-shadow: 0px 0px 10px rgba(24, 24, 24, 0.3)">
+                                        <img src="./src/JMUPe3-X2Cf8UF2AOeiFjILTkgNlOBKkCLRIDyMGYbM=_plaintext_638321956347235757.jpg" class="rounded-lg" alt="" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.699);">
+                                    </div>
+                                </div>
+                                <div class="m-3 sm:m-5">
+                                    <div class="scale-90 md:scale-100 w-72 h-max bg-[#1e1e1e] rounded-md" style="box-shadow: 0px 0px 10px rgba(24, 24, 24, 0.3)">
+                                        <img src="./src/UWDhIBlLnGJyfpr_nWa-zyxp75tBcrx7GFkBPfrY5TE=_plaintext_638321956371452936.jpg" class="rounded-lg" alt="" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.699);">
+                                    </div>
+                                </div>
+                                <div class="m-3 sm:m-5">
+                                    <div class="scale-90 md:scale-100 w-72 h-max bg-[#1e1e1e] rounded-md" style="box-shadow: 0px 0px 10px rgba(24, 24, 24, 0.3)">
+                                        <img src="./src/wFKcDWDXOxtcrssAs5_QIZw-5iH2d07WGT2vh2Mvizs=_plaintext_638321956349891806.jpg" class="rounded-lg" alt="" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.699);">
+                                    </div>
+                                </div>
+                                <div class="m-5 hidden md:block">
+                                    <div class="scale-90 md:scale-100 w-72 h-max bg-[#1e1e1e] rounded-md" style="box-shadow: 0px 0px 10px rgba(24, 24, 24, 0.3)">
+                                        <img src="./src/F2TyZGIzLVygXbcSLowE7zlJAUIIdNtr5u8LYmsXuZo=_plaintext_638321956326456038.jpg" class="rounded-lg" alt="" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.699);">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="absolute right-[16vw] z-10 sm:right-16 md:right-32 lg:right-56 font-black uppercase my-7 bg-gradient-to-tl from-blue-400 to-green-500 md:px-3 md:py-2 rounded-sm hover:cursor-pointer text-[#1e1e1e] hover:scale-105 transition-all duration-150">
+                                <a href="./photography/" target="_blank" class="text-xs md:text-sm lg:text-base px-3 py-1 md:px-5 md:py-3">view all <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Contact" class="h-max md:mt-20 flex justify-center items-center flex-col relative">
+            <div id="black-box" class="bg-[#121212] absolute -z-20 -top-64 w-full h-96"></div>
+            <div id="contact-black" class="bg-[#1e1e1e] mt-20 md:mt-0 h-max w-[95vw] sm:w-[33rem] md:w-[50rem] sm:scale-100 md:scale-75 lg:scale-100 flex justify-center items-center flex-col sm:flex-row p-5 md:p-10 rounded-md mb-10 md:mb-20">
+                <div class="basis[70%]">
+                    <p class="font-black text-2xl sm:text-3xl md:text-5xl" style="font-family: 'Gabarito', cursive;">Let's work together on your next project</p>
+                    <p class="mt-3 text-sm md:text-base text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, voluptates.</p>
+                </div>
+                <div class="basis-[30%] mt-8 sm:mt-0">
+                    <div class="bg-gradient-to-r to-yellow-400 from-orange-500 text-black rounded-sm py-1 md:py-2 mr-3 md:mr-10 w-max hover:scale-105 transition-all duration-200">
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXDzFnCkHWKSghZhBJXXklsKLLvxVcQSJMfBvQlPZtxWkHQZVwGRjnpQGzqqFwTrvSplV" target="_blank" class="uppercase text-xs md:text-sm font-black px-4 py-0.5 md:px-7 md:py-2">contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-5 md:mb-10">
+                <a href="#Home" class="mx-1 sm:mx-5 text-xs sm:text-sm md:text-base transition-all duration-150 hover:text-slate-500">Home</a>
+                <a href="#About_me" class="mx-1 sm:mx-5 text-xs sm:text-sm md:text-base transition-all duration-150 hover:text-slate-500">About</a>
+                <a href="#Portfolio" class="mx-1 sm:mx-5 text-xs sm:text-sm md:text-base transition-all duration-150 hover:text-slate-500">Portfolio</a>
+                <a href="#Contact" class="mx-1 sm:mx-5 text-xs sm:text-sm md:text-base transition-all duration-150 hover:text-slate-500">Contact</a>
+            </div>
+        </section>
+        <footer class="h-max pb-5 w-full bg-[#121212]">
+            <div class="relative pt-4 flex justify-between items-center flex-col sm:flex-row">
+                <div class="sm:ml-5 text-sm sm:text-base">
+                    <p>created by <a href="https://www.linkedin.com/in/sumanth-narem-431a4524b" class="underline bg-gradient-to-br bg-clip-text text-transparent from-green-500 to-blue-500">Sumanth Narem</a></p>
+                </div>
+                <div class="flex my-2 sm:my-0 sm:-ml-44">
+                    <a href="https://www.instagram.com/danger_3003/" target="_blank" class="mx-3"><i class="fa-brands fa-instagram text-2xl" style="color: #ffffff;"></i></a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXDzFnCkHWKSghZhBJXXklsKLLvxVcQSJMfBvQlPZtxWkHQZVwGRjnpQGzqqFwTrvSplV" target="_blank" class="mx-3"><i class="fa-solid fa-envelope text-2xl" style="color: #ffffff;"></i></a>
+                    <a href="https://www.linkedin.com/in/sumanth-narem-431a4524b" target="_blank" class="mx-3"><i class="fa-brands fa-linkedin text-2xl" style="color: #ffffff;"></i></a>
+                </div>
+                <div class="sm:mr-5">
+                    <img src="./src/hi.png" alt="" class="w-10">
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
